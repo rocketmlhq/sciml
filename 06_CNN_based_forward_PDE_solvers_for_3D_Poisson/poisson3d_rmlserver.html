@@ -2,7 +2,7 @@
 <html>
 <head><meta charset="utf-8" />
 
-<title>poisson3d</title>
+<title>poisson3d_rmlserver</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -13215,9 +13215,9 @@ $$<p>where $\nu({\bf x})$ represents the <em>diffusivity</em> (or <em>permeabili
 <div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">model</span>   <span class="o">=</span> <span class="s1">&#39;/home/ubuntu/poisson3D/models/model_checkpoint_64x64x64_ep50.pt&#39;</span>
-<span class="n">network</span> <span class="o">=</span> <span class="s1">&#39;/home/ubuntu/poisson3D/networks/unet3d_64x64x64.json&#39;</span>
-<span class="n">sample</span>  <span class="o">=</span> <span class="s1">&#39;/home/ubuntu/poisson3D/data/nu.npy&#39;</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">model</span>   <span class="o">=</span> <span class="s1">&#39;/home/ubuntu/models/model_checkpoint_64x64x64_ep50.pt&#39;</span>
+<span class="n">network</span> <span class="o">=</span> <span class="s1">&#39;/home/ubuntu/networks/unet3d_64x64x64.json&#39;</span>
+<span class="n">sample</span>  <span class="o">=</span> <span class="s1">&#39;/home/ubuntu/data/nu.npy&#39;</span>
 </pre></div>
 
     </div>
@@ -13239,7 +13239,7 @@ Next, we plot a slice across the input diffusivity map.</p>
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">model_json</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;/home/ubuntu/poisson3D/networks/unet3d_64x64x64_keras.json&#39;</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">model_json</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;/home/ubuntu/networks/unet3d_64x64x64_keras.json&#39;</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
 <span class="n">keras_model</span> <span class="o">=</span> <span class="n">model_from_json</span><span class="p">(</span><span class="n">model_json</span><span class="p">)</span>
 <span class="n">plot_model</span><span class="p">(</span><span class="n">keras_model</span><span class="p">,</span> <span class="n">show_shapes</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 </pre></div>
@@ -13496,7 +13496,7 @@ dims = [1, 1, 64, 64, 64]
 <div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">fem_solution</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="s1">&#39;/home/ubuntu/poisson3D/data/fem.npy&#39;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">fem_solution</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="s1">&#39;/home/ubuntu/data/fem.npy&#39;</span><span class="p">)</span>
 <span class="n">nu</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">sample</span><span class="p">)</span>
 <span class="n">x</span> <span class="o">=</span> <span class="mi">48</span>
 <span class="n">display_slice</span><span class="p">(</span><span class="n">nu</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="p">:,</span> <span class="n">x</span><span class="p">,</span> <span class="p">:],</span> <span class="n">pred</span><span class="p">[:,</span> <span class="n">x</span><span class="p">,</span> <span class="p">:],</span> <span class="n">fem_solution</span><span class="p">[:,</span> <span class="n">x</span><span class="p">,</span> <span class="p">:])</span>
