@@ -17,7 +17,6 @@ Partial Differential Equations, Numerical methods, Machine Learning, Deep Learni
 
 - Log in to [sciml.rocketml.net](https://sciml.rocketml.net) using the instructions received from RocketML
 <img width="1742" alt="Screen Shot 2021-11-14 at 2 05 29 PM" src="https://user-images.githubusercontent.com/7530528/141700438-070fb4ff-56b7-4733-b3ef-0988fd2e6b1b.png">
-<img width="1747" alt="Screen Shot 2021-11-14 at 2 11 13 PM" src="https://user-images.githubusercontent.com/7530528/141700586-f07c811d-f945-4a12-9edc-db97cb9d5d83.png">
 
 - Go through the onboarding screens and _Skip Intro_
 
