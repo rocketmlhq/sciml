@@ -17,6 +17,8 @@ In this repository, you can find all the example notebooks used for SC21 full-da
 - [Slack Invite](https://join.slack.com/t/sciml-workspace/shared_invite/zt-xfzyqf2u-zh4GRt7sRoh4RLSY9~yyJw)
 - [Youtube Playlist](https://www.youtube.com/watch?v=ssZO8Y_TqxI&list=PLcK0exoS00ZTPdvhmh0IdyCIlVQ2lzjJ5)
 - [RocketML support](mailto:rocketml@20230188.hubspot-inbox.com)
+- [DeepXDE](https://github.com/lululxvi/deepxde)
+- [DiffNet](https://github.com/adityabalu/DiffNet)
 
 
 ## Target Audience
