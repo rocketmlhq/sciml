@@ -5,12 +5,17 @@ In this repository, you can find all the example notebooks used for SC21 full-da
 
 ## Contents
 
+- [Resources](#resources)
 - [Target Audience](#target-audience)
 - [Content Level](#content-level)
 - [Prerequisites](#prerequisites)
 - [Getting Started](#getting-started)
-- [Slack](https://join.slack.com/t/sciml-workspace/shared_invite/zt-xfzyqf2u-zh4GRt7sRoh4RLSY9~yyJw)
-- [Youtube](https://www.youtube.com/playlist?list=PLcK0exoS00ZQlXk1whowBwKRmmvI3m6PF)
+
+## Resources
+
+- [Slack Invite](https://join.slack.com/t/sciml-workspace/shared_invite/zt-xfzyqf2u-zh4GRt7sRoh4RLSY9~yyJw)
+- [Youtube Playlist](https://www.youtube.com/playlist?list=PLcK0exoS00ZQlXk1whowBwKRmmvI3m6PF)
+- [RocketML support](mailto:rocketml@20230188.hubspot-inbox.com)
 
 
 ## Target Audience
