@@ -64,7 +64,7 @@ This can happen due to following reasons:
 
 - _There is a delay in creating  containers when new nodes are being added to Azure Kubernetes cluster. A new node creation and downloading Docker images can take up to 10 minutes. If it takes more than 15 minutes, please ping us on slack._
 
-- _Similar to system reboot for Windows that fixes all the issues. We have two fixes 1) Browser refresh, 2) Log out/Log in to get new containers._
+- _Similar to system reboot for Windows that fixes all the issues, we have two fixes 1) Browser refresh, 2) Log out/Log in to get new containers._
 
 
 
