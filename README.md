@@ -10,6 +10,7 @@ In this repository, you can find all the example notebooks used for SC21 full-da
 - [Content Level](#content-level)
 - [Prerequisites](#prerequisites)
 - [Getting Started](#getting-started)
+- [Frequently Asked Questions](#faq)
 
 ## Resources
 
@@ -29,12 +30,17 @@ Partial Differential Equations, Numerical methods, Machine Learning, Deep Learni
 
 ## Getting Started
 
-- Contact [RocketML](mailto:rocketml@20230188.hubspot-inbox.com) customer support for a user account on [sciml.rocketml.net](https://sciml.rocketml.net).
+- If you registered for SC21 tutorial before October 29th then 
+  1. Go to https://sciml.rocketml.net
+  2. Enter your email address used for your registration and click on "Reset Password"
+  3. Follow instructions in your password reset email
+  
+- If you registered after October 29th then email [RocketML](mailto:rocketml@20230188.hubspot-inbox.com) for a user account on [sciml.rocketml.net](https://sciml.rocketml.net). We will send you email instructions on how to log in. Don't worry this process should not take more than 10 minutes!  
 
 - Log in to [sciml.rocketml.net](https://sciml.rocketml.net) using the instructions received from RocketML
 <img width="1742" alt="Screen Shot 2021-11-14 at 2 05 29 PM" src="https://user-images.githubusercontent.com/7530528/141700438-070fb4ff-56b7-4733-b3ef-0988fd2e6b1b.png">
 
-- Go through the onboarding screens and _Skip Intro_
+- Go through the onboarding screens
 
 - You will see a list of tutorials that are ready to use
 
@@ -46,5 +52,11 @@ Partial Differential Equations, Numerical methods, Machine Learning, Deep Learni
 
 - Run the tutorial notebook one cell at a time. If you are not familiar with Jupyter notebook please google for a relevant [tutorial](https://www.youtube.com/watch?v=CwFq3YDU6_Y)
 <img width="1751" alt="Screen Shot 2021-11-14 at 2 12 04 PM" src="https://user-images.githubusercontent.com/7530528/141700618-3b5f9de1-755f-496a-b47a-37757b9d99ac.png">
+
+## FAQ
+
+1. My tutorial screen is stuck at _Please Wait Jupyter Compute is not started yet_ for more than 5 minutes. What do I do?
+_There is a delay in creating  containers when new nodes are being added to Azure Kubernetes cluster. A new node creation and downloading Docker images can take up to 10 minutes. If it takes more than 15 minutes, please ping us on slack._
+
 
 
