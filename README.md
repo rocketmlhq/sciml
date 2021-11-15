@@ -32,12 +32,12 @@ Partial Differential Equations, Numerical methods, Machine Learning, Deep Learni
 
 ## Getting Started
 
-- If you registered for SC21 tutorial before October 29th then 
+- If you registered for SC21 tutorial **before October 29th** then 
   1. Go to https://sciml.rocketml.net
   2. Enter your email address used for your registration and click on "Reset Password"
   3. Follow instructions in your password reset email
   
-- If you registered after October 29th then email [RocketML](mailto:rocketml@20230188.hubspot-inbox.com) for a user account on [sciml.rocketml.net](https://sciml.rocketml.net). We will send you email instructions on how to log in. Don't worry this process should not take more than 10 minutes!  
+- If you registered **after October 29th** then email [RocketML](mailto:rocketml@20230188.hubspot-inbox.com) for a user account on [sciml.rocketml.net](https://sciml.rocketml.net). We will send you email instructions on how to log in. Don't worry this process should not take more than 10 minutes!  
 
 - Log in to [sciml.rocketml.net](https://sciml.rocketml.net) using the instructions received from RocketML
 <img width="1742" alt="Screen Shot 2021-11-14 at 2 05 29 PM" src="https://user-images.githubusercontent.com/7530528/141700438-070fb4ff-56b7-4733-b3ef-0988fd2e6b1b.png">
