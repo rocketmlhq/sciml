@@ -2,6 +2,17 @@
 
 In this repository, you can find all the example notebooks used for SC21 full-day tutorial: _Scientific Machine Learning using HPC Servers on Cloud_
 
+
+## Contents
+
+- [Target Audience](#target-audience)
+- [Content Level](#content-level)
+- [Prerequisites](#prerequisites)
+- [Getting Started](#getting-started)
+- [Slack](https://join.slack.com/t/sciml-workspace/shared_invite/zt-xfzyqf2u-zh4GRt7sRoh4RLSY9~yyJw)
+- [Youtube](https://www.youtube.com/playlist?list=PLcK0exoS00ZQlXk1whowBwKRmmvI3m6PF)
+
+
 ## Target Audience
 Practitioners who use numerical simulations of Partial Differential Equations (PDEs) in analysis, optimization, design and control of complex engineered systems
 
