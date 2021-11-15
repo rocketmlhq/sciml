@@ -58,7 +58,12 @@ Partial Differential Equations, Numerical methods, Machine Learning, Deep Learni
 ## FAQ
 
 1. My tutorial screen is stuck at _Please Wait Jupyter Compute is not started yet_ for more than 5 minutes. What do I do?
-_There is a delay in creating  containers when new nodes are being added to Azure Kubernetes cluster. A new node creation and downloading Docker images can take up to 10 minutes. If it takes more than 15 minutes, please ping us on slack._
+
+This can happen due to following reasons:
+- _When you log in for the first time. Resources like persistent disk space and Azure blob storage are being created for you to store the tutorials and for you to create new notebooks._
+
+- _There is a delay in creating  containers when new nodes are being added to Azure Kubernetes cluster. A new node creation and downloading Docker images can take up to 10 minutes. If it takes more than 15 minutes, please ping us on slack._
+
 
 
 
